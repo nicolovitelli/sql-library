@@ -4,15 +4,15 @@
 
 <pre>CONCAT(string1, string2)</pre>
 
-* [CONCAT Function: Examples]
-* [CONCAT Function: Oracle Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/CONCAT.html)
+### Links
+* [Examples](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/CONCAT.html)
+* [Oracle Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/CONCAT.html)
 
 ## INITCAP
 * Sets the first character in each word to uppercase and the rest to lowercase.
 
-### Syntax
-```INITCAP(string1)```
+<pre>INITCAP(<i>string1</i>)</pre>
 
 ### Links
-* [Examples](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/INITCAP.html)
+* [Examples](https://livesql.oracle.com/apex/livesql/s/pl2zn2by4a1korbuy8qk7qlr)
 * [Oracle Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/INITCAP.html)
