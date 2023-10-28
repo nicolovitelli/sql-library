@@ -6,7 +6,7 @@
 CONCAT(string1, string2)
 ```
 
-- [Examples](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/CONCAT.html)
+- [Examples](https://livesql.oracle.com/apex/livesql/s/szqr03dc8grt6k6ufa9kxkr9)
 - [Oracle Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/CONCAT.html)
 
 ## INITCAP
@@ -29,4 +29,15 @@ LOWER(string)
 ```
 
 - [Examples](https://livesql.oracle.com/apex/livesql/s/pmgyzmxayl39j3l7uromtxht)
+- [Oracle Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/LOWER.html)
+
+## UPPER
+- Converts all characters in a string to uppercase.
+	- Also works with dates.
+
+```sql
+UPPER(string)
+```
+
+- [Examples](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/LOWER.html)
 - [Oracle Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/LOWER.html)
