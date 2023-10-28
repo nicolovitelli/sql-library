@@ -9,6 +9,7 @@
 
 ## INITCAP
 * Capitalizes the first letter of each word in a string, while converting the rest of the letters to lowercase.
+** Also works with dates.
 
 ```INITCAP(string)```
 
