@@ -1,0 +1,88 @@
+/* Style for the question container */
+#question-container {
+  margin-top: 20px;
+  margin-bottom: 75px;
+}
+
+/* Style for each question */
+div.question {
+  margin-bottom: 75px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#question-container > .question {
+      margin-bottom: 75px;
+}
+
+/* Existing CSS */
+.difficulty-rating {
+  color: gold;
+  font-size: 24px;
+}
+
+/* Style for the Back to Top button */
+#back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the Show Answer button */
+button.show-answer-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Style for the list of choices */
+ul.choices-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style for each choice */
+ul.choices-list li {
+  margin-bottom: 5px;
+}
+
+/* Apply the Courier New font to SQL choices' text */
+.sql-choice {
+  font-family: 'Courier New', monospace;
+}
+
+/* Style for each choice text */
+.sql-choice .choice-text {
+  font-size: 15px;
+}
+
+/* Style for the choice letter */
+.sql-choice span.choice-letter {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+/* Style for the choice text */
+.sql-choice span.choice-text {
+  color: black;
+}
+
+/* Style for the question text */
+.question-text {
+  font-size: 18px;
+}
+
+/* Style for SQL code */
+.sql-code {
+  font-family: 'Courier New', monospace;
+}

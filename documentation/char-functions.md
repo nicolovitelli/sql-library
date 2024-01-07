@@ -108,7 +108,7 @@ TRIM([[LEADING | TRAILING | BOTH] trim_character FROM] string1)
 
 ### Notes
 - If you do not specify any keyword between LEADING, TRAILING or BOTH the default option will be BOTH.
-- trim_character allows **only** one character.
+- _trim_character_ allows **only** one character.
 	- Having more than one character raises the error `ORA-30001: trim set should have only one character`.
 - If _string1_ and/or _trim_character_ are NULL, the function returns NULL.
 
